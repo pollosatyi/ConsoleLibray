@@ -29,7 +29,7 @@ while (isRun)
             CreateLibrayUI.CreateLibray();
             break;
         case StartMenuEnum.Read:
-            CreateLibrayUI.ReadLibray();
+            ReadLibrayUI.ReadLibray();
             break;
         case StartMenuEnum.Clear:
             Console.Clear();

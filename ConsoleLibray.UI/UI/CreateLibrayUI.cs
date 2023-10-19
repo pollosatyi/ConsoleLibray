@@ -32,10 +32,6 @@ namespace ConsoleLibray.UI.UI
 
         }
 
-        public static void ReadLibray()
-        {
-            _libraryService.Read();
-
-        }
+       
     }
 }
