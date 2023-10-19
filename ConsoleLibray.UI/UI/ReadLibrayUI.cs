@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleLibray.UI.UI
 {
-    
+
     public static class ReadLibrayUI
     {
         private static ILibraryService _libraryService = new LibraryService();
