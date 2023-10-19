@@ -29,12 +29,13 @@ namespace ConsoleLibray.UI.UI
             }
 
             _libraryService.Create(libraryName, bookCount);
-            
+
         }
 
-        public static void ReadLibray() {
+        public static void ReadLibray()
+        {
             _libraryService.Read();
-        
+
         }
     }
 }

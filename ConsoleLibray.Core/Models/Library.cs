@@ -12,7 +12,7 @@ namespace ConsoleLibray.Core.Models
         public int BookCount { get; set; }
 
         public Library(string name, int bookCount)
-        { 
+        {
             Name = name;
             BookCount = bookCount;
         }

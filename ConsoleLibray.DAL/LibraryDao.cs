@@ -14,9 +14,9 @@ namespace ConsoleLibray.DAL
         private const string PATH = "C:\\Library\\library.json";
         public void Create(Library library)
         {
-            var libraries = new List<Library>(); 
-            
-            if(File.Exists(PATH)) 
+            var libraries = new List<Library>();
+
+            if (File.Exists(PATH))
             {
                 using (FileStream fs = new FileStream(PATH, FileMode.OpenOrCreate))
                 {
@@ -56,7 +56,7 @@ namespace ConsoleLibray.DAL
 
         private void WriteConsole(List<Library> library)
         {
-            foreach(var x in library)
+            foreach (var x in library)
             {
                 Console.Write(x.Name);
                 Console.Write($" {x.BookCount}");
